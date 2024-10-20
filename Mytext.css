@@ -1,0 +1,36 @@
+#bottomText{
+   margin-bottom: 100px; 
+}
+
+body{
+    background-color: white;
+}
+.text{
+  font-size: 250%;
+  text-transform: uppercase;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+}
+.meme-img{
+    position: relative;
+    width: 100px;
+}
+img{
+    display: block;
+}
+.top{
+    position: absolute;
+    top:0;
+z-index: 9;
+}
+.bottom{
+    position: absolute;
+    bottom:0;
+    z-index:9;
+}
+.gallery
+{
+    list-style: none;
+    width: 100%;
+}
